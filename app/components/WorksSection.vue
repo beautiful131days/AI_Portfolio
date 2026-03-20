@@ -3,18 +3,34 @@ import { ref } from 'vue'
 
 const works = [
   {
-    title: 'AI Commercial Film',
-    desc: '近未来的な世界観で構成したAI広告映像。',
+    title: '',
+    desc: '',
     img: '/images/work005_waiff_2026.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: 'WZDQv01IQBU',
     ratio: 'landscape',
     featured: true
   },
   {
     title: 'AI Commercial Film',
     desc: '近未来的な世界観で構成したAI広告映像。',
+    img: '/images/work007_roboneo_01.webp',
+    videoId: 'uJRRXwJN6gY',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'AI Commercial Film',
+    desc: '近未来的な世界観で構成したAI広告映像。',
+    img: '/images/work007_roboneo_02.webp',
+    videoId: 'zNhHrLREHEg',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'AI Commercial Film',
+    desc: '近未来的な世界観で構成したAI広告映像。',
     img: '/images/work006_neko_2026.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: '33jXXwiQC7A',
     ratio: 'portrait',
     featured: false
   },
@@ -22,7 +38,7 @@ const works = [
     title: 'Cinematic Short',
     desc: '感情表現と空気感を重視した短編映像作品。',
     img: '/images/work004_yes_vidu.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: 'OpO9nNF0ZIk',
     ratio: 'portrait',
     featured: false
   },
@@ -30,7 +46,7 @@ const works = [
     title: 'Visual Film',
     desc: 'ホラーとアート表現を掛け合わせた映像作品。',
     img: '/images/work003_ai_video_2026.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: 'JSd_XRd5OTs',
     ratio: 'portrait',
     featured: false
   },
@@ -38,7 +54,7 @@ const works = [
     title: 'Visual Film',
     desc: 'ホラーとアート表現を掛け合わせた映像作品。',
     img: '/images/work002_2025_christmas.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: '4dcm2rGwr6o',
     ratio: 'portrait',
     featured: false
   },
@@ -46,7 +62,7 @@ const works = [
     title: 'Visual Film',
     desc: 'ホラーとアート表現を掛け合わせた映像作品。',
     img: '/images/work001_sousakuai_2025winter.webp',
-    videoId: 'dQw4w9WgXcQ',
+    videoId: 'VyArN9prGWg',
     ratio: 'landscape',
     featured: true
   }
