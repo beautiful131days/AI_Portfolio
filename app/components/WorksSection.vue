@@ -1,0 +1,142 @@
+<script setup>
+import { ref } from 'vue'
+
+const works = [
+  {
+    title: 'AI Commercial Film',
+    desc: '近未来的な世界観で構成したAI広告映像。',
+    img: '/images/work005_waiff_2026.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'landscape',
+    featured: true
+  },
+  {
+    title: 'AI Commercial Film',
+    desc: '近未来的な世界観で構成したAI広告映像。',
+    img: '/images/work006_neko_2026.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'Cinematic Short',
+    desc: '感情表現と空気感を重視した短編映像作品。',
+    img: '/images/work004_yes_vidu.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'Visual Film',
+    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    img: '/images/work003_ai_video_2026.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'Visual Film',
+    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    img: '/images/work002_2025_christmas.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'portrait',
+    featured: false
+  },
+  {
+    title: 'Visual Film',
+    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    img: '/images/work001_sousakuai_2025winter.webp',
+    videoId: 'dQw4w9WgXcQ',
+    ratio: 'landscape',
+    featured: true
+  }
+]
+
+const selectedVideo = ref(null)
+
+const openVideo = (id) => {
+  selectedVideo.value = id
+}
+
+const closeVideo = () => {
+  selectedVideo.value = null
+}
+</script>
+
+<template>
+  <section id="works" class="px-6 pt-24 sm:pb-24 pb-12">
+
+    <div class="max-w-[800px] mx-auto">
+
+      <h2 class="text-3xl sm:text-4xl mb-8 font-semibold">
+        Works
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+        <article
+          v-for="w in works"
+          :key="w.title"
+          @click="openVideo(w.videoId)"
+          class="group cursor-pointer bg-[#111] border border-white/10 rounded-[20px] overflow-hidden transition hover:-translate-y-1 hover:border-white/20"
+          :class="w.featured ? 'sm:col-span-2' : ''"
+        >
+
+          <!-- image -->
+          <div
+            class="overflow-hidden bg-[#1a1a1a]"
+            :class="w.ratio === 'landscape' ? 'aspect-[16/8]' : 'aspect-[4/5]'"
+          >
+            <img
+              :src="w.img"
+              :alt="w.title"
+              loading="lazy"
+              class="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+
+          <!-- body -->
+          <div class="p-5">
+            <h3 class="text-xl sm:text-2xl mb-2 font-semibold">
+              {{ w.title }}
+            </h3>
+
+            <p class="text-sm sm:text-[15px] text-white/70 leading-relaxed">
+              {{ w.desc }}
+            </p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+
+    <!-- modal -->
+    <div
+      v-if="selectedVideo"
+      @click.self="closeVideo"
+      class="fixed inset-0 bg-black/80 flex items-center justify-center p-6 z-50"
+    >
+
+      <div class="w-full max-w-[1100px] aspect-video">
+        <iframe
+          class="w-full h-full rounded-xl"
+          :src="`https://www.youtube.com/embed/${selectedVideo}?autoplay=1`"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <button
+        @click="closeVideo"
+        class="absolute top-5 right-6 text-white text-3xl"
+      >
+        ✕
+      </button>
+
+    </div>
+
+  </section>
+</template>
