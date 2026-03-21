@@ -94,14 +94,14 @@ const closeVideo = () => {
           v-for="w in works"
           :key="w.title"
           @click="openVideo(w.videoId)"
-          class="group cursor-pointer bg-[#111] border border-white/10 rounded-[20px] overflow-hidden transition hover:-translate-y-1 hover:border-white/20"
+          class="group cursor-pointer bg-[#111] border border-white/15 rounded-[20px] overflow-hidden transition hover:-translate-y-1 hover:border-white/30"
           :class="w.featured ? 'sm:col-span-2' : ''"
         >
 
           <!-- image -->
           <div
             class="overflow-hidden bg-[#1a1a1a]"
-            :class="w.ratio === 'landscape' ? 'aspect-[16/8]' : 'aspect-[4/5]'"
+            :class="w.ratio === 'landscape' ? 'aspect-[16/9]' : 'aspect-[4/5]'"
           >
             <img
               :src="w.img"

@@ -66,11 +66,11 @@ const stats = [
 
       <!-- 画像 -->
       <div class="flex justify-center">
-        <div class="relative w-[80%] max-w-[520px] aspect-square overflow-hidden rounded-[28px] shadow-[0_30px_80px_rgba(0,0,0,0.45)] mx-auto mb-12 sm:mb-0" >
+        <div class="relative w-[80%] max-w-[520px] rounded-[28px] shadow-[0_30px_80px_rgba(0,0,0,0.45)] mx-auto mb-12 sm:mb-0">
           <img
             src="/images/profile.webp"
             alt="Yasu"
-            class="w-full h-full object-cover"
+            class="w-full h-auto object-cover aspect-[1/1]"
           />
         </div>
       </div>
