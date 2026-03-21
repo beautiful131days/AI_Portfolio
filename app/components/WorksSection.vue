@@ -10,6 +10,14 @@ const works = [
     ratio: 'landscape',
     featured: true
   },
+    {
+    title: '',
+    desc: '短編 MV',
+    img: '/images/work008_mv_01.webp',
+    videoId: 'QBMeyExj7gg',
+    ratio: 'portrait',
+    featured: false
+  },
   {
     title: '',
     desc: 'RoboNeo PR投稿',
@@ -19,8 +27,8 @@ const works = [
     featured: false
   },
   {
-    title: 'RoboNeo PR投稿',
-    desc: '近未来的な世界観で構成したAI広告映像。',
+    title: '',
+    desc: 'RoboNeo PR投稿',
     img: '/images/work007_roboneo_02.webp',
     videoId: 'zNhHrLREHEg',
     ratio: 'portrait',
