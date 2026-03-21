@@ -4,22 +4,22 @@ import { ref } from 'vue'
 const works = [
   {
     title: '',
-    desc: '',
+    desc: 'WAIFF 2026 ベストAI CM部門 応募作品',
     img: '/images/work005_waiff_2026.webp',
     videoId: 'WZDQv01IQBU',
     ratio: 'landscape',
     featured: true
   },
   {
-    title: 'AI Commercial Film',
-    desc: '近未来的な世界観で構成したAI広告映像。',
+    title: '',
+    desc: 'RoboNeo PR投稿',
     img: '/images/work007_roboneo_01.webp',
     videoId: 'uJRRXwJN6gY',
     ratio: 'portrait',
     featured: false
   },
   {
-    title: 'AI Commercial Film',
+    title: 'RoboNeo PR投稿',
     desc: '近未来的な世界観で構成したAI広告映像。',
     img: '/images/work007_roboneo_02.webp',
     videoId: 'zNhHrLREHEg',
@@ -27,40 +27,40 @@ const works = [
     featured: false
   },
   {
-    title: 'AI Commercial Film',
-    desc: '近未来的な世界観で構成したAI広告映像。',
+    title: '',
+    desc: 'AI猫の日にゃんにゃんにゃん選手権 応募作品',
     img: '/images/work006_neko_2026.webp',
     videoId: '33jXXwiQC7A',
     ratio: 'portrait',
     featured: false
   },
   {
-    title: 'Cinematic Short',
-    desc: '感情表現と空気感を重視した短編映像作品。',
+    title: '',
+    desc: 'Yes Viduチャレンジ 応募作品',
     img: '/images/work004_yes_vidu.webp',
     videoId: 'OpO9nNF0ZIk',
     ratio: 'portrait',
     featured: false
   },
   {
-    title: 'Visual Film',
-    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    title: '',
+    desc: 'RUN FORWARD : AI VIDEO CONTEST 2026 応募作品',
     img: '/images/work003_ai_video_2026.webp',
     videoId: 'JSd_XRd5OTs',
     ratio: 'portrait',
     featured: false
   },
   {
-    title: 'Visual Film',
-    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    title: '',
+    desc: 'クリスマス短編動画コンテスト 2025 応募作品',
     img: '/images/work002_2025_christmas.webp',
     videoId: '4dcm2rGwr6o',
     ratio: 'portrait',
     featured: false
   },
   {
-    title: 'Visual Film',
-    desc: 'ホラーとアート表現を掛け合わせた映像作品。',
+    title: '',
+    desc: 'Sousaku AI クリスマス創作カップ2025 応募作品',
     img: '/images/work001_sousakuai_2025winter.webp',
     videoId: 'VyArN9prGWg',
     ratio: 'landscape',
