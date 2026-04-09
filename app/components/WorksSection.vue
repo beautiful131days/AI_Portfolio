@@ -4,6 +4,22 @@ import { ref } from 'vue'
 const works = [
   {
     title: '',
+    desc: '令和の新入社員 AIコンテスト応募作品',
+    img: '/images/work009_reiwa_shinjin.webp',
+    videoId: '2iIUC3WIIj8',
+    ratio: 'landscape',
+    featured: true
+  },
+    {
+    title: '',
+    desc: 'くりえみ AIショートフィルムコンテスト応募作品',
+    img: '/images/work010_kuriemi.webp',
+    videoId: 'CNmATFEIjDM',
+    ratio: 'landscape',
+    featured: true
+  },
+  {
+    title: '',
     desc: 'WAIFF 2026 ベストAI CM部門 応募作品',
     img: '/images/work005_waiff_2026.webp',
     videoId: 'WZDQv01IQBU',

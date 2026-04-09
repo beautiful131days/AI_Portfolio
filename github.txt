@@ -1,0 +1,10 @@
+npm run generate
+ \.output\public
+npm run dev
+
+git status
+git add .
+git commit -m "コメント"
+git push -u origin main
+
+https://github.com/yasusuya/being_hp
