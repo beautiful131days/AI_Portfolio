@@ -35,7 +35,7 @@ const stats = [
             class="h-full w-full object-contain grayscale-[0.2] transition duration-700 group-hover:scale-[1.015] group-hover:grayscale-0"
           />
           <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
-          <div class="absolute inset-x-5 bottom-5 flex items-end justify-between">
+          <div class="absolute inset-x-[18%] bottom-[15%] flex items-end justify-between">
             <div>
               <p class="text-[10px] tracking-[0.18em] text-white/45">MIYAGI / JAPAN</p>
               <a href="https://x.com/iyamaita" target="_blank" rel="noopener noreferrer" class="mt-1 flex items-center gap-2 text-sm font-medium">
