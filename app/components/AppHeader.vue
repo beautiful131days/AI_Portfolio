@@ -3,18 +3,15 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <header class="relative z-40 px-5 pt-5 sm:px-6 sm:pt-6">
-    <nav class="mx-auto flex max-w-[900px] items-center justify-between rounded-full border border-white/10 bg-black/65 px-4 py-3 backdrop-blur-xl sm:px-5" aria-label="メインナビゲーション">
-      <a href="#" class="flex items-center gap-2 text-sm font-semibold tracking-[-0.02em]">
-        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-white text-[10px] font-bold text-black">Y</span>
-        <span>YASU</span>
-      </a>
-
-      <div class="flex items-center gap-1 text-[11px] text-white/50 sm:gap-2">
-        <a href="#awards" class="rounded-full px-3 py-2 transition hover:bg-white/8 hover:text-white">Awards</a>
-        <a href="#works" class="rounded-full px-3 py-2 transition hover:bg-white/8 hover:text-white">Works</a>
-        <a href="#contact" class="hidden rounded-full px-3 py-2 transition hover:bg-white/8 hover:text-white sm:block">Contact</a>
-        <a href="https://x.com/iyamaita" target="_blank" rel="noopener noreferrer" aria-label="Xのプロフィールを開く" class="ml-1 flex h-8 w-8 items-center justify-center rounded-full bg-white text-black transition hover:scale-105">
+  <header class="relative z-40 px-4 pt-4 sm:px-6 sm:pt-6">
+    <nav class="ml-auto flex w-fit items-center" aria-label="メインナビゲーション">
+      <div class="flex items-center gap-1.5">
+        <div class="flex items-center rounded-full border border-white/8 bg-white/[0.035] p-0.5 text-[10px] tracking-[0.02em] text-white/50 sm:text-[11px]">
+          <a href="#awards" class="rounded-full px-2.5 py-2 transition duration-300 hover:bg-white/8 hover:text-white sm:px-3.5">Awards</a>
+          <a href="#works" class="rounded-full px-2.5 py-2 transition duration-300 hover:bg-white/8 hover:text-white sm:px-3.5">Works</a>
+          <a href="#contact" class="rounded-full px-2.5 py-2 transition duration-300 hover:bg-white/8 hover:text-white sm:px-3.5">Contact</a>
+        </div>
+        <a href="https://x.com/iyamaita" target="_blank" rel="noopener noreferrer" aria-label="Xのプロフィールを開く" class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-black transition duration-300 hover:scale-105 hover:bg-[#d6ff3f] sm:h-9 sm:w-9">
           <Icon icon="ri:twitter-x-fill" />
         </a>
       </div>

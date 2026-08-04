@@ -67,7 +67,7 @@ const otherAwards = awards.filter((_, index) => index !== 0 && index !== 2)
         </div>
         <div class="flex items-end gap-4 sm:gap-6">
           <h2 class="text-[clamp(40px,8vw,72px)] leading-none font-semibold tracking-[-0.045em]">Awards</h2>
-          <p class="mb-1 border-l border-white/20 pl-4 text-[11px] tracking-[0.2em] text-white/40 sm:mb-2 sm:pl-6">受賞歴</p>
+          <p class="mb-1 border-l border-white/20 pl-4 text-sm tracking-[0.16em] text-white/45 sm:mb-2 sm:pl-6 sm:text-base">受賞歴</p>
         </div>
       </header>
 

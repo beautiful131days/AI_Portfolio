@@ -22,7 +22,7 @@ const stats = [
           AI FILMMAKER / CREATOR
         </p>
         <h1 class="text-[clamp(58px,10vw,100px)] leading-[0.82] font-semibold tracking-[-0.065em]">
-          YASU<span class="text-white/18">.</span>
+          YASU
         </h1>
 
         <p class="mt-9 max-w-[530px] text-[15px] sm:text-[16px] leading-[1.9] text-white/58">
@@ -47,17 +47,6 @@ const stats = [
           ※過去運用・非公開アカウント含む実績
         </p>
 
-        <div class="flex flex-wrap gap-3 mt-8">
-          <a href="#works"
-            class="group flex items-center justify-center gap-3 min-w-[170px] px-6 py-3.5 rounded-full bg-white text-sm text-black font-semibold transition hover:-translate-y-1">
-            作品を見る
-            <Icon icon="solar:arrow-down-linear" class="transition group-hover:translate-y-0.5" />
-          </a>
-          <a href="#contact"
-            class="flex items-center justify-center min-w-[150px] px-6 py-3.5 rounded-full border border-white/15 text-sm text-white/70 transition hover:-translate-y-1 hover:border-white/35 hover:text-white">
-            Contact ↗
-          </a>
-        </div>
       </div>
 
       <div class="relative mx-auto w-full max-w-[390px] lg:ml-auto">
