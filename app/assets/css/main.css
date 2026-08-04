@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #000;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,0.035), transparent 28rem),
+    #000;
+  color: #fff;
+  font-family: Inter, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(255,255,255,0.9);
+  color: #000;
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}

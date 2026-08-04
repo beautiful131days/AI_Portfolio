@@ -1,6 +1,8 @@
 <template>
   <div class="bg-black text-white">
+    <AppHeader />
     <HeroSection />
+    <AwardsSection />
     <WorksSection />
     <!-- <AboutSection /> -->
     <ContactSection />
