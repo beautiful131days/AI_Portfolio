@@ -3,6 +3,14 @@ import { Icon } from '@iconify/vue'
 
 const awards = [
   {
+    date: '2026.09.03',
+    title: 'WFAIA 2026 ショートドラマ部門｜還る〜Return',
+    prize: '最優秀賞',
+    img: '/images/award_wfaia_2026.jpg',
+    url: 'https://x.com/iyamaita/status/2097068137674105019?s=20',
+    featured: true
+  },
+  {
     date: '2026.07.31',
     title: 'SousakuAI Agent Creation Cup 2026 Vol.2',
     prize: '最優秀実写賞',
@@ -51,8 +59,8 @@ const awards = [
 const cppPartners = ['Kling', 'OiiOii', 'Pollo', 'Sjinn', 'Renoise', 'Zopia', 'PixVerse', 'Flova']
 
 const featuredAward = awards[0]
-const klingAward = awards[2]
-const otherAwards = awards.filter((_, index) => index !== 0 && index !== 2)
+const klingAward = awards[3]
+const otherAwards = awards.filter((_, index) => index !== 0 && index !== 3)
 </script>
 
 <template>

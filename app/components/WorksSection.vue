@@ -4,6 +4,16 @@ import { computed, ref } from 'vue'
 const works = [
   {
     title: '',
+    desc: 'WFAIA 2026 キッズ・教育部門 ファイナリスト選出',
+    img: '/images/work_wfaia_education_finalist.jpg',
+    videoId: 'd1Ootwp3kdA',
+    createdAt: '2026-09-03T12:00:00',
+    ratio: 'landscape',
+    featured: true,
+    layout: 'sm:col-span-12 sm:row-span-7'
+  },
+  {
+    title: '',
     desc: '時間を止めることができる男に起きた悲惨な結末｜OiiOii Skill「世奇小話」',
     img: '/images/work017_oiioii_skill.jpg',
     videoId: 'HaU3PFyswZs',
@@ -154,7 +164,7 @@ const works = [
   }
 ]
 
-const featuredOrder = ['mN8Xjzvns7U', 'lHI4FWGLx28', 'WZDQv01IQBU']
+const featuredOrder = ['d1Ootwp3kdA', 'mN8Xjzvns7U', 'lHI4FWGLx28', 'WZDQv01IQBU']
 
 const sortedWorks = computed(() =>
   [...works].sort((a, b) => {
